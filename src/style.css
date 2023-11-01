@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 1rem;
+  font-family: system-ui, sans-serif;
+  color: black;
+  background-color: white;
+}
+
+.navbar {
+  height: 60px;
+  background-color: aliceblue;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+h1 {
+  padding: 20px;
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+ul {
+  display: flex;
+}
+
+li {
+  height: 200px;
+  width: 200px;
+  margin: 8px;
+  display: flex;
+  flex-direction: column;
+}
+
+.price-block {
+  display: flex;
+  margin: 0 8px;
+  justify-content: space-between;
+}
